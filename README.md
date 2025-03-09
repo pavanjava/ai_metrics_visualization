@@ -55,10 +55,3 @@ To update the data displayed in the visualization:
 
 1. Modify the `data` array in `src/components/BiomedicalRagScores.tsx`
 2. The component will automatically recalculate averages and correlation when the data changes
-
-## Dark Mode
-
-The visualization is configured with a dark mode theme by default to match the screenshot. If you prefer a light theme:
-
-1. Remove the `bg-gray-900 text-white` classes from the `body` tag in `index.html`
-2. Update the color schemes in the `BiomedicalRagScores.tsx` component
